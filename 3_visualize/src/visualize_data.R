@@ -8,7 +8,7 @@ library(stringr)
 visualize_data <- function(input_data = '2_process/out/model_summary_results.csv', output_path = '3_visualize/out/figure_1.png') {
   
   # Load data
-  model_results <- readr::read_csv(input_data)
+  eval_data <- readr::read_csv(input_data)
   
   # create .png file, though this is probably redundant and will be an argument
   # png_path <- '3_visualize/out/figure_1.png'
