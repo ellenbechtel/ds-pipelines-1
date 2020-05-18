@@ -2,8 +2,6 @@
 library(dplyr)
 library(readr)
 library(stringr)
-library(sbtools)
-library(whisker)
 
 # Create function to process data
 process_data <- function(input_data = '1_fetch/out/model_RMSEs.csv', output_path = '2_process/out/model_summary_results.csv') {

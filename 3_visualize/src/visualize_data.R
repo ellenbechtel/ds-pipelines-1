@@ -2,8 +2,6 @@
 library(dplyr)
 library(readr)
 library(stringr)
-library(sbtools)
-library(whisker)
 
 # Create function to plot data and export as PNG
 

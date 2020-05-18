@@ -1,9 +1,5 @@
 # Load Libraries
-library(dplyr)
-library(readr)
-library(stringr)
 library(sbtools)
-library(whisker)
 
 #create a new function called fetch_data
 fetch_data <- function(output_path = '1_fetch/out/model_RMSEs.csv') {
